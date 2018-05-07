@@ -73,6 +73,5 @@ A clear, concise, and transparent receipt of a patient visit – from diagnoses 
 ![Crossover Health](/assets/logo-crossover-health.png){: .logo-image }
 ![National Institutes of Health](/assets/logo-nih.png){: .logo-image }
 ![PCORI](/assets/logo-pcori.png){: .logo-image }
-![Walgreens](/assets/logo-walgreens.png){: .logo-image }
 </div>
 
