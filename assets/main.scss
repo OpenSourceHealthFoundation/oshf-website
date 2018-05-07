@@ -1,0 +1,74 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+body {
+	color: #525252;
+	font-size: 19px;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+h1, h2 {
+	color: #9168A9;
+	font-family: Serif;
+	margin-top: 40px;
+	margin-bottom: 5px;
+	line-height: 120%;
+}
+
+h1 {
+	font-size: 55px;
+}
+
+h2 {
+	font-size: 30px;
+}
+
+h4, .post-content h4 {
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 0;
+	margin-top: 50px;
+}
+
+ul, ol {
+	margin-left: 0;
+}
+
+.site-header {
+	border: none;
+}
+
+// Not an elegant solution
+h2#we-imagine-design-build-ship-and-deliver-open-source-healthcare-services {
+	margin-top: 0;
+}
+// end not an elegant solution
+
+.stretch {
+	display: flex;
+	justify-content: center;
+	text-align: center;
+}
+
+.logo-image {
+	padding: 20px;
+	width: 130px;
+	line-height: 50px;
+	text-align: center;
+}
+
+.site-footer {
+	border-top: none;
+	background: url('../assets/triangle-cutout.png') repeat-x top #54525B;
+}
+
+.site-footer h2 {
+	color: #FFF;
+	margin-top: 10px;
+}
+
+.site-footer a {
+	color: #DBBAF0;
+}
