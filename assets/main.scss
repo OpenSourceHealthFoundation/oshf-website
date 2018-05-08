@@ -12,7 +12,7 @@ body {
 h1, h2 {
 	color: #9168A9;
 	font-family: Serif;
-	margin-top: 40px;
+	margin-top: 45px;
 	margin-bottom: 5px;
 	line-height: 120%;
 }
@@ -30,6 +30,15 @@ h4, .post-content h4 {
 	font-weight: bold;
 	margin-bottom: 0;
 	margin-top: 50px;
+}
+
+a, a:visited {
+	color: #9168A9;
+	text-decoration: underline;
+}
+
+a:hover {
+	color: #525252;
 }
 
 ul, ol {
@@ -59,16 +68,31 @@ h2#we-imagine-design-build-ship-and-deliver-open-source-healthcare-services {
 	text-align: center;
 }
 
+.no-bottom-spacing {
+	margin-bottom: 0;
+}
+
+.work-card { 
+	border: 1px solid #EAEAEA;
+	border-radius: 5px;
+	margin-bottom: 40px;
+}
+
+.work-card img {
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+
+.text-card {
+	margin-left: 20px;
+}
+
 .site-footer {
 	border-top: none;
-	background: url('../assets/triangle-cutout.png') repeat-x top #54525B;
+	background: #F3F3F3;
+	// background: url('../assets/triangle-cutout.png') repeat-x top #54525B;
 }
 
 .site-footer h2 {
-	color: #FFF;
 	margin-top: 10px;
-}
-
-.site-footer a {
-	color: #DBBAF0;
 }
